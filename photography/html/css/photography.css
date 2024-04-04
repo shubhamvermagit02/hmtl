@@ -1,0 +1,281 @@
+body{ padding:0px;
+ background-color:#6d323;
+font-family: 'Roboto', sans-serif; 
+ }
+ 
+ .cantainer{ width:1200px; 
+ margin:0px auto;
+     margin-bottom: 50px;
+	 }
+ 
+
+.header{
+    width: 100%;
+    background-color: black;
+    padding: 10px 0px;
+    display: inline-block;
+}
+ .header .cantaine {
+    width: 1200px;
+margin: 0px auto;
+    letter-spacing: 1px;
+}
+.header .cantaine img{
+}
+.header .cantaine .nav {
+	    width: 897px;
+    margin: 0px auto;
+    float: right;	
+}
+ .header .cantaine ul {
+    display: flex;
+	margin: 0px;
+	padding:0px;
+	
+}
+.header .cantaine ul li{
+	list-style: none;
+
+}
+.header .cantaine li a{
+	    display: flex;
+    align-items: center;
+     padding: 10px 0px 10px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+	text-decoration: none;
+}
+.header .cantaine ul li a:hover{
+	background-color:white;
+	color:black;
+}
+.header .cantaine ul li a.active{
+	
+	color:red;
+}
+.banner-section{
+	width:100%;
+	background-image:url("../image/banner-section.png");
+    height: 100vh;
+    background-position-x: center;
+}
+.banner-section .banner-content{
+  width: 886px;
+    height: 500vh;
+    color: white;
+    margin: 0px auto;
+	text-align: center;
+	padding-top:150px;
+	}
+	.banner-section .banner-content h1{
+	font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px auto;
+    text-align: center;
+	}
+	.banner-section .banner-content p{
+	    font-size: 19px;
+    font-weight: 200px;
+    line-height: 35px;
+    color: #fff;
+		  
+	}
+	.banner-section .banner-content a.button{
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px 11px 25px;
+	    font-size: 20px;
+	}
+	.banner-content a.button:hover{
+		background-color:lightblue;
+	}
+	.location{
+		width:100%;
+		background-color:white;
+
+			    margin-top: 130px;
+	}
+	.location h1{
+	text-align: center;
+    font-size: 41px;
+    color: #1c1a1a;
+    font-weight: bolder;
+}
+.boxes {
+display: flex;
+    width: 100%;
+	    flex-wrap: wrap;
+}
+	.boxes .box1 {
+        width: 29%;
+    background-color: #f9f9f9;
+    box-shadow: 1px 0px 3px 0px;
+    height: 366px;
+    margin: 21px;
+    text-align: center;
+}
+ 	.boxes .box1 img {
+        width: 218px;
+  
+}
+ .boxes .box1  h1 {
+    text-align: center;
+	font-size: 33px;
+ }
+ .boxes .box1 a.button {
+   background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 32px;
+    text-transform: capitalize;
+ }
+	.box1 a.button:hover{
+		color:lightblue;
+ }
+ .portfolio{
+ width: 100%;
+    color: white;
+    background-image: url(../image/portfolio.png);
+    background-repeat: no-repeat;
+ }
+   .heading h1 {
+     text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 28px;
+    padding-top: 85px;
+}
+ .portfolio-section{
+	     width: 1200px;
+    display: flex;
+    height: 800px;
+    margin: 0px auto;
+    flex-wrap: wrap;;
+	
+  }
+  .box {
+    width: 33%;
+    height: 200px;
+	text-align:center;
+  }
+ .box img {
+         width: 360px;
+    height: 232px;
+    box-shadow: 2px 4px 6px 1px black;
+}
+.box h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+}  
+.portfolio-button {
+        color: black;
+       background-color: white;
+    height: 35px;
+    margin: 0px auto;
+    width: 141px;
+    border-radius: 10px;
+    text-align: center;
+padding: 17px 10px 0px 10px;}
+a.button {
+    color: black;
+text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+	}
+	 a.button:hover{
+	color: lightblue;
+	}
+	.portfolio-wrap {
+    padding: 1px 0px 5px 0px;
+    width: 91%;
+    height: 300px;
+	background-color: rgb(255 255 255 / 40%);
+	}
+	.client-testimonial {
+    background-color: #ebebeb;
+    margin-top: 155px;
+}
+ .client-testimonial ul {
+    margin-top: -3px;
+ }
+	.client-section {
+    display: flex;
+	
+}
+
+.clients {
+    
+    margin: 0px 5px 0px 0px;
+    border: 1px solid;
+}
+.testimonial {
+    width: 33%;
+    background: #fff;
+    padding: 40px;
+    margin: 0px 20px 2px 15px;
+    position: relative;
+    border: 1px solid #d8d8d8;
+  height: 340px;
+}
+h4.title {
+        text-align: justify;
+    font-size: x-large;
+}
+
+.description {
+        font-weight: 500;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 27px;
+    letter-spacing: 0.8;
+}
+
+.client-cantainer {
+    width: 1200px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    display: flex;
+}
+	
+	.testimonial .content {
+    display: inline-block;
+    margin: 10px 0;
+}
+.testimonial .name {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: capitalize;
+}
+.testimonial .post {
+    font-size: 14px;
+    color: #555;
+    line-height: 24px;
+}
+.footer {
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100%;
+}
+.footercantainer {
+    width: 1200px;
+    margin: 0px auto;
+}
+.footer-logo {
+    text-align: center;
+}
+.footer-nav {
+   

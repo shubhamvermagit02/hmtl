@@ -1,0 +1,55 @@
+body{
+    width:100%;
+    background-color:red;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    color:black;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+
+    .menu{
+            margin: 0px;
+    padding: 10px;
+    display: flex;
+}
+    }
+    
+    .menu ul{
+        margin:0px;
+        padding: 10px; 
+        display: flex;
+         background-color:#fae093;
+    }
+    .menu ul li{
+        list-style:none;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        padding: 0px 15px;
+        font-size: 20px;
+        color: blue;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .menu ul li a:hover{
+         color: #635151;
+    }
+     .img img{
+        height: 100px;
+        width: 100px;
+            margin-left: -2px;
+        margin-top: -47px;
+    }
+    h1{
+    text-align: center;
+    color: black;
+    }
+	<

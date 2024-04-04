@@ -1,0 +1,61 @@
+
+.header{
+    width:100%;
+    }
+     .logo{
+        float:left;
+    }
+    
+     .logo img{
+    height: 150px;
+    width: 200px;
+    }
+    
+    .menu{ float:right;   
+      padding: 10px;     
+      background-color:#fae093; 
+       border-radius:15px;
+      }
+    .menu ul{
+            margin:0px;
+            padding: 0px; 
+            display: flex;
+             
+    
+        }
+        .menu ul li{
+            list-style:none;
+            
+        }
+        .menu ul li a {
+            text-decoration: none;
+            padding: 0px 15px;
+            font-size: 20px;
+            color: blue;
+            text-transform: uppercase;
+            font-weight: bold;
+        
+        }
+        .menu ul li a:hover{
+             color: #635151;
+        
+        }
+         .box {
+        width: 455px;
+        height: 358px;
+         background:url("https://img.jagranjosh.com/images/2023/September/1492023/strong-anime.jpg");
+         margin:0px auto;
+          
+             }
+            .form{
+                    height: 96px;
+                    width: 175px;
+                    padding: 15px;
+                    background:url("https://www.hindustantimes.com/ht-img/img/2023/04/19/550x309/Mortal-Kombat-12-3_1681865444223_1681865457448.jpg");
+            }
+             .box h1 p {
+            color: white;}
+            .form section{
+                padding: 9px;
+                text-align:center;
+            }

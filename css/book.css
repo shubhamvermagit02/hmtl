@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+	background-image:url(https://media.npr.org/assets/img/2022/12/22/gettyimages-1245203807-1536x1029_wide-9982607ca51f99999656d993bf5511d42533c0f2-s800-c85.webp)
+}
+
+header {
+ background-color:black;
+    padding: 10px;
+    text-align: center;
+	color:white;
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+nav ul {
+    list-style: none;
+	
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+	
+}
+
+nav a {
+    text-decoration: none;
+    color: aqua;
+	
+}
+a:hover{
+	  text-decoration: underline; 
+color: blue;
+ }
+
+.search-container{
+text-align:center;
+}
+h1{
+color:aqua;
+text-align: center;
+}
+img{
+	height:200px;
+	width150px;
+text-align:center;
+}
+section{
+	background-image:url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg)
+}
+p{
+color:aqua;}

@@ -1,0 +1,67 @@
+body{
+	background:url("https://images.unsplash.com/photo-1590071089561-2087ff1fc418?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDN8fHxlbnwwfHx8fHw%3D&w=1000&q=80");
+}
+ .logo img{
+	     height: 100px;
+    width: 150px;
+    float: left;
+ }
+ .nav {
+	 width:800px;
+	 margin: 0px auto;
+	   border:1px solid #000;
+ }
+ .nav ul{
+	 margin: 0px;
+	 padding:0px;
+	 display: flex;
+ }
+ .nav ul li{
+	
+	 list-style: none;
+ }
+ .nav ul li a {
+	text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ .form{
+	 background-color: black;
+    width: 50%;
+     margin: 89px auto;
+    height: 300px;
+ border-radius: 10px;
+ }
+ .form .innerform{
+	 width:100%;
+ }
+ .form .innerform .section{
+	 float: left;
+	 padding:35px;
+	 width: 26%
+ }
+ .messagebox textarea{
+	 width: 638px;
+    height: 59px;
+	    margin-left: -22px;
+}
+ .button button{
+	     margin-left: 262px;
+ }
+ .section input{
+    padding: 16px ;
+	color: #000;
+    font-weight: 700;
+    text-transform: capitalize;
+     padding: 14px 21px 7px 16px;
+    border-radius: 20px;
+ }
+	 
+ .city select{
+	 width: 213px;
+    height: 39px;
+    border-radius: 20px
+ }
